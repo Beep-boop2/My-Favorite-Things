@@ -1,0 +1,48 @@
+    body{
+        background-color:deepskyblue;
+        color:indianred;
+    }
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        margin:0;
+        padding:0;
+        z-index:10;
+    }
+    nav li{
+        list-style:none;
+        background-color:indianred;
+        color:lightblue;
+        margin:0;
+        flex:1;
+        min-width:200px;
+        text-align:center;
+        display:flex;
+        position:relative;
+    }
+    nav a, nav a:visited{
+        text-decoration:none;
+        width:100%;
+        padding:8px 0;
+        color:yellow;
+    }
+    nav a:hover, nav a.active{
+        color:deeppink;
+        background-color:pink;
+    }
+    .dropdown-content{
+        position:absolute;
+        top:35px;
+        width:100%;
+        display:none;
+        z-index:20;
+    }
+    nav li:hover .dropdown-content{
+        display:block;
+    }
+    .dropdown-content a{
+        font-weight:bold;
+    }
+    .dropdown-content ul{
+        flex-direction:column;
+    }
