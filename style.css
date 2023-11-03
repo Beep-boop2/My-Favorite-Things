@@ -46,3 +46,12 @@
     .dropdown-content ul{
         flex-direction:column;
     }
+    .times{
+        font-family: "Times New Roman", serif;
+    }
+    .courier{
+        font-family: "Courier New", Courier, monospace;
+    }
+    .lucida{
+        font-family: "Lucida Console", Lucida, monospace;
+    }
